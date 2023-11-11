@@ -6,7 +6,7 @@ config_dict = get_default_config()
 config_dict['language'] = 'ru'
 
 API_TOKEN = 'YOU API TOKEN'
-owm = OWM('09af5e7b80f9e46e0e0e4d45548a555a', config_dict)
+owm = OWM('owm token', config_dict)
 
 
 # Configure logging
